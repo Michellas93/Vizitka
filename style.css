@@ -20,9 +20,9 @@ body{
 
 .fotografie{
     height:150px;
-    position: relative;
-    left:1015px;
-    top:250px;
+    position: absolute;
+    right: -75px;
+    top:-75px;
     border-radius: 50%;
     border: solid white; 
 }
@@ -48,10 +48,11 @@ a{
 }
 
 .box{
-    margin: 200px;
     margin-top: 150px;
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
+    position:relative;
     background-color: white;
     border-radius: 10px;
     width:550px;
